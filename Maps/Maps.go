@@ -10,4 +10,18 @@ func main() {
 		"Sobrenome": "Silva",
 	}
 	fmt.Println(usuario["Nome"])
+
+	u2 := map[string]map[string]string{
+		"nome": {
+			"primeiro" : "Jose",
+			"Segundo" : "João",
+		},
+		"Curso": {
+			"nome" : "T.I",
+			"Ano" : "Teiceiro",
+		},
+	}
+	fmt.Println(u2)
+	
+	
 }
